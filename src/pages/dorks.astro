@@ -18,6 +18,17 @@ const owaspCounts = Object.fromEntries(
 ---
 
 <Layout title="Google Dorks — Cyzen Technology" description="Research-backed Google dorks for bug bounty hunting and penetration testing. Filter by category, severity, and OWASP Top 10 2025.">
+  <!-- Disclaimer banner -->
+  <div class="border-b border-yellow-500/20 bg-yellow-500/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-start gap-3">
+      <span class="text-yellow-400 text-sm shrink-0 mt-0.5">⚠</span>
+      <p class="text-xs text-yellow-200/70 leading-relaxed">
+        <span class="font-semibold text-yellow-400">For authorized use only.</span>
+        {' '}These queries are intended for legitimate security research, bug bounty programs, and penetration testing engagements where you have explicit written authorization to test the target system. Unauthorized use against systems you do not own or have permission to test may violate the Computer Fraud and Abuse Act (CFAA), GDPR, and equivalent laws in your jurisdiction. Use responsibly.
+      </p>
+    </div>
+  </div>
+
   <div class="max-w-7xl mx-auto px-4 sm:px-6 pb-16">
 
     <!-- Hero -->
